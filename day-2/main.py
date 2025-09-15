@@ -19,12 +19,46 @@
 #     print(x); 
 
 
+# print("=== Calculator ===")
+# print("1. For input two numbers")
+# print("Enter")
+# value = int(input(''))
+
+
+# if value == 1:
+#     num1, num2 = map(int, input("Enter two number:").split())
+
+#     print('Select Operation (eg. +, -, *, /)')
+#     operator = input("Enter operator: ")
+    
+#     if operator == '+':
+#         print(num1 + num2); 
+    
+#     elif operator == '-':
+#         print(num1 - num2); 
+    
+#     elif operator == '*':
+#         print(num1 * num2); 
+    
+#     elif operator == '/':
+#         print(num1 / num2); 
+
+#     else:
+#         print('Invalid Operator'); 
+
+# else:
+#     print('Invalid')
+
 print("=== Calculator ===")
 print("1. For input two numbers")
 print("Enter")
-value = int(input(''))
+value = 0
 
 
+while value  !=  1:
+    value = int(input('Enter valid vlaue: '))
+
+    
 if value == 1:
     num1, num2 = map(int, input("Enter two number:").split())
 
@@ -48,4 +82,3 @@ if value == 1:
 
 else:
     print('Invalid')
-
